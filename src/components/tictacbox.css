@@ -1,0 +1,57 @@
+.nav {
+  display: flex;
+  flex-direction: column;
+  font-family: fantasy;
+  font-size: 40px;
+  align-items: center;
+  background-color: #050923;
+  color: #15b062;
+  position: relative;
+}
+h1 {
+  color: whitesmoke;
+  font-family: monospace;
+  font-size: 45px;
+}
+td:hover {
+  text-align: center;
+  background-color: hotpink;
+}
+td {
+  text-align: center;
+  border: purple ridge 3px;
+  color: #18f758;
+  font-size: 40px;
+  text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.2), 0 0 0.45em purple;
+  box-shadow: 0 0 0.5em purple, 0 0 0.5em purple;
+}
+tr {
+  height: 100px;
+}
+table {
+  border: purple ridge 3px;
+  table-layout: fixed;
+  width: 300px;
+  margin: 10px;
+}
+.container {
+  background-color: #050923;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+  min-width: 65%;
+  position: relative;
+  border-radius: 25px;
+}
+
+video {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+button {
+  margin-bottom: 10px;
+}
