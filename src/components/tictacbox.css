@@ -1,4 +1,4 @@
-.nav {
+.nava {
   display: flex;
   flex-direction: column;
   font-family: fantasy;
@@ -8,7 +8,7 @@
   color: #15b062;
   position: relative;
 }
-h1 {
+.result {
   color: whitesmoke;
   font-family: monospace;
   font-size: clamp(2rem, 3vw, 3rem);

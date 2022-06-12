@@ -81,12 +81,12 @@ function Tictacbox() {
   return (
     <React.Fragment>
       <video src={logo} muted autoPlay loop></video>
-      <div className="nav">
-        <span>Tic Tac Toe Game</span>
+      <div className="nava">
+        <h1>Tic Tac Toe Game</h1>
       </div>
       <div className="container">
         {result.winner === "" ? (
-          <h1>Player {turn} Turn</h1>
+          <h1 className="result">Player {turn} Turn</h1>
         ) : result.winner === "Wins" ? (
           <h1>
             Player {result.names} {result.winner}
