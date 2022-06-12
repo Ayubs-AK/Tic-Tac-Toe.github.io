@@ -6,7 +6,9 @@
   align-items: center;
   background-color: #050923;
   color: #15b062;
-  position: relative;
+  position:relative;
+  height: 5rem;
+  justify-content: center;
 }
 .result {
   color: whitesmoke;
