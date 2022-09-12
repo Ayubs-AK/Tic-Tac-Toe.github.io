@@ -22,9 +22,9 @@ To run this project, install it locally using npm:
 
 ## Project Status
 This project will have future updates to add more functionality such as:
-*Background music feature
-*Option to play single player mode (Player vs PC)
-*More animations
+* Background music feature
+* Option to play single player mode (Player vs PC)
+* More animations
 
 
 
